@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xgpp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0024-tenant/tkrw-pr714-0075-0024-app/devfile-sample-xgpp@sha256:8fb462a7f8e9622e39a94db01f4aad9c48697304942019bff19f53b6914200d1
         name: my-nodejs
         ports:
         - containerPort: 3001
